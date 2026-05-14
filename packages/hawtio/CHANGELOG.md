@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.2.1](https://github.com/hawtio/hawtio-react/compare/v2.2.0...v2.2.1) (2026-05-14)
+
+
+### Bug Fixes
+
+* **route-diagram:** Fixed CSS after merging, fixed text in turned off nodes for consistency between themes ([#2081](https://github.com/hawtio/hawtio-react/issues/2081)) ([04e5caf](https://github.com/hawtio/hawtio-react/commit/04e5cafbb1cd13363a352b03227e63c339a8f328))
+* **trace:** Fixed trace messages not updating ([3d76c35](https://github.com/hawtio/hawtio-react/commit/3d76c351f682b212e855c99a6a4e89e6a850f379))
+
 ## [2.2.0](https://github.com/hawtio/hawtio-react/compare/v2.1.0...v2.2.0) (2026-04-30)
 
 
