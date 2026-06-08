@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.3.0-pre.0](https://github.com/hawtio/hawtio-react/compare/v2.2.1...v2.3.0-pre.0) (2026-06-08)
+
+
+### Bug Fixes
+
+* **camel:** displayed number for ExchangesTotal is wrong ([c4e6702](https://github.com/hawtio/hawtio-react/commit/c4e670259eeb64d5551361ab3ed9431b39cb050c)), closes [hawtio/hawtio#4391](https://github.com/hawtio/hawtio/issues/4391)
+* **ui:** Review usage of SVG files imported through tsup/esbuild loaders (fixes [#2088](https://github.com/hawtio/hawtio-react/issues/2088)) ([fa39e95](https://github.com/hawtio/hawtio-react/commit/fa39e956dcda549a9a60681b5c3e2ffe77f5e0d7))
+
 ## [2.2.1](https://github.com/hawtio/hawtio-react/compare/v2.2.0...v2.2.1) (2026-05-14)
 
 
