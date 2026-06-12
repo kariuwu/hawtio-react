@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.3.0-pre.1](https://github.com/hawtio/hawtio-react/compare/v2.3.0-pre.0...v2.3.0-pre.1) (2026-06-12)
+
+
+### Bug Fixes
+
+* **api:** export context from HawtioPage UI component ([a3e4528](https://github.com/hawtio/hawtio-react/commit/a3e45280cea8c0f43f7a4a5a15c1fbf41a1a1154))
+
 ## [2.3.0-pre.0](https://github.com/hawtio/hawtio-react/compare/v2.2.1...v2.3.0-pre.0) (2026-06-08)
 
 
