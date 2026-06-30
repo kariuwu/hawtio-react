@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.0](https://github.com/hawtio/hawtio-react/compare/backend-middleware-v1.0.8...backend-middleware-v1.1.0) (2026-06-30)
+
+
+### Features
+
+* **middleware:** Switch from axios to node fetch() (fixes [#2133](https://github.com/hawtio/hawtio-react/issues/2133)) ([f38d9bb](https://github.com/hawtio/hawtio-react/commit/f38d9bb7e480861ae9020ca1b1d0e8621f8b4d7e))
+
+
+### Bug Fixes
+
+* **backend-middleware:** fix type for axios 1.15.2 ([7e5d8ae](https://github.com/hawtio/hawtio-react/commit/7e5d8ae0a73e97e8757bb30460d75fae6fd15212))
+
 ## [1.0.8](https://github.com/hawtio/hawtio-next/compare/backend-middleware-v1.0.7...backend-middleware-v1.0.8) (2025-11-18)
 
 
