@@ -15,6 +15,10 @@ node_modules
 
 # testing
 coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
 
 # production
 dist/
@@ -50,3 +54,13 @@ yarn-error.log*
 # any directories specifically labelled ignore
 **/ignore/**
 .aider*
+
+# Java test apps target
+tests/springboot-app/target/
+tests/quarkus-app/target/
+
+# E2E test artifacts
+tests/e2e/.yarn/
+
+# Camel JBang
+.camel-jbang/

@@ -1,0 +1,49 @@
+- route:
+    id: cron-route
+    group: intervals
+    from:
+      uri: quartz:cron
+      parameters:
+        cron: '0/10 * * * * ?'
+      steps:
+        - log:
+            message: 'Cron route fired'
+        - to: 'mock:result'
+
+- route:
+    id: simple-route
+    group: intervals
+    from:
+      uri: quartz:simple
+      parameters:
+        trigger.repeatInterval: 5000
+      steps:
+        - log:
+            message: 'Simple trigger fired'
+        - to: 'stream:out'
+
+- route:
+    id: timer-route-a
+    group: subjects
+    from:
+      uri: timer:tickA
+      parameters:
+        period: 3000
+      steps:
+        - setBody:
+            constant: 'Hello from timer A'
+        - log:
+            message: '${body}'
+        - to: 'mock:result'
+
+- route:
+    id: timer-route-b
+    group: subjects
+    from:
+      uri: timer:tickB
+      parameters:
+        period: 7000
+      steps:
+        - setBody:
+            constant: 'Hello from timer B'
+        - to: 'log:timerB'
