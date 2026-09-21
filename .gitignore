@@ -47,3 +47,7 @@ yarn-error.log*
 # any directories specifically labelled ignore
 **/ignore/**
 .aider*
+
+# Java test apps target
+tests/springboot-app/target/
+tests/quarkus-app/target/
